@@ -1,12 +1,14 @@
 import React from "react";
 import { MdMessage } from "react-icons/md";
 import styles from "./button.module.css";
-export default function Button() {
+export default function Button(props) {
   return (
     <div>
-      <button className={styles.Primary_btn}>
-        <MdMessage fontSize="24px" />
-        VIA SUPPORT CHAT
+      <button
+        className={props.isOutline ? styles.outline_btn : styles.Primary_btn}
+      >
+        {props.icon}
+        {props.text}
       </button>
     </div>
   );

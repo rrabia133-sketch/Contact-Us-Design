@@ -25,9 +25,40 @@
   max-width: 975px;
 }
 
-/* start conact form styling */
+/* start contact form styling */
 .conatiner_Form {
   display: flex;
   max-width: 1000px;
   margin: 0% auto;
+}
+
+.top_button {
+  display: flex;
+  gap: 32px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: red;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  margin-top: 25px;
+}
+
+.form_control input {
+  padding: 0 8px;
+  height: 40px;
+}
+.form_control label {
+  font-size: 14px;
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
 }
