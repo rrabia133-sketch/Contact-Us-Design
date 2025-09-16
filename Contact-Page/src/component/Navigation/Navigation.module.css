@@ -1,0 +1,26 @@
+.logo {
+  width: 90px;
+  height: 80px;
+}
+
+/* start contact section style  */
+.contactSection {
+  margin-top: 70px;
+}
+.h1 {
+  font-weight: 800;
+  font-weight: bold;
+  font-style: unset;
+  font-size: 48px;
+}
+.P {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(90, 89, 89, 1);
+  margin-top: 25px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-style: unset;
+  font-weight: 600;
+  max-width: 975px;
+}
