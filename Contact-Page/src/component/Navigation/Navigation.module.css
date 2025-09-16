@@ -24,3 +24,11 @@
   font-weight: 600;
   max-width: 975px;
 }
+
+/* start conact form styling */
+.conatiner_Form {
+  display: flex;
+  max-width: 1000px;
+  margin: 0% auto;
+  background-color: black;
+}
