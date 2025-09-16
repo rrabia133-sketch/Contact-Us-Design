@@ -34,9 +34,16 @@ export default function ContactForm() {
             <div className={styles.form_control}>
               <label htmlFor="text">Text</label>
 
-              <textarea type="text"></textarea>
+              <textarea type="text" rows="5"></textarea>
             </div>
           </form>
+          <div
+            style={{
+              marginTop: "20px",
+            }}
+          >
+            <Button text="SUBMIT" />
+          </div>
         </div>
 
         <div className={styles.contact_image}>
