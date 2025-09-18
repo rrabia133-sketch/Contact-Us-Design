@@ -65,3 +65,59 @@
 .contact_image {
   margin-top: 0px;
 }
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  .conatiner_Form {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  .h1 {
+    font-size: 36px;
+  }
+
+  .top_button {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contactSection {
+    margin-top: 40px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .conatiner_Form {
+    padding: 0 10px;
+    gap: 20px;
+  }
+
+  .h1 {
+    font-size: 28px;
+  }
+
+  .P {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .top_button {
+    gap: 12px;
+  }
+
+  .form_control {
+    margin-top: 20px;
+  }
+
+  .contactSection {
+    margin-top: 30px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 60px;
+  }
+}

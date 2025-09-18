@@ -28,3 +28,24 @@
   width: 100%;
   cursor: pointer;
 }
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  .Primary_btn,
+  .outline_btn {
+    min-width: 180px;
+    font-size: 15px;
+    padding: 8px 14px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .Primary_btn,
+  .outline_btn {
+    min-width: 150px;
+    font-size: 14px;
+    padding: 8px 12px;
+    gap: 6px;
+  }
+}
